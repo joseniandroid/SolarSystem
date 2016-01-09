@@ -14,7 +14,31 @@
     tools:showIn="@layout/activity_main">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+        android:text="@string/choose_a_planet"/>
+
+    <Spinner
+        android:id="@+id/spnrPlanets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:spinnerMode="dropdown"/>
+
+    <ImageView
+        android:id="@+id/imgPlanet"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@id/spnrPlanets"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"/>
 </RelativeLayout>
