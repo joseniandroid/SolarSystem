@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planet_names">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+        <item>Pluto</item>
+    </string-array>
+
+    <string-array name="planet_images">
+        <item>@drawable/mercury</item>
+        <item>@drawable/venus</item>
+        <item>@drawable/earth</item>
+        <item>@drawable/mars</item>
+        <item>@drawable/jupiter</item>
+        <item>@drawable/saturn</item>
+        <item>@drawable/uranus</item>
+        <item>@drawable/neptune</item>
+        <item>@drawable/pluto</item>
+    </string-array>
+
+    <string-array name="planet_descriptions">
+        <item>The Swiftest Planet</item>
+        <item>Planetary Hot Spot</item>
+        <item>Our Home Planet</item>
+        <item>The Red Planet</item>
+        <item>King of the Planets</item>
+        <item>Jewel of Our Solar System</item>
+        <item>The Sideways Planet</item>
+        <item>The Windiest Planet</item>
+        <item>King of the Kuiper Belt</item>
+    </string-array>
+</resources>
